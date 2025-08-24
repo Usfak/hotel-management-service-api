@@ -29,7 +29,7 @@ public class RoomImageServiceImpl implements RoomImageService {
     }
 
     @Override
-    public RoomImagePaginateResponseDto findAll(int page, int size, string roomID) {
+    public RoomImagePaginateResponseDto findAll(int page, int size, String roomID) {
         return null;
     }
 }

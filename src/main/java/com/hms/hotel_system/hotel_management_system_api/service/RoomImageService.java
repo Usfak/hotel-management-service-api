@@ -16,5 +16,5 @@ public interface RoomImageService {
 
     public ResponseRoomImageDto findById(String imageId);
 
-    public RoomImagePaginateResponseDto findAll(int page, int size,string roomID);
+    public RoomImagePaginateResponseDto findAll(int page, int size,String roomID);
 }

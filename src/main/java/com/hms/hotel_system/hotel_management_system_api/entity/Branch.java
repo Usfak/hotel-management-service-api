@@ -2,11 +2,17 @@ package com.hms.hotel_system.hotel_management_system_api.entity;
 
 import com.hms.hotel_system.hotel_management_system_api.enums.BranchType;
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.util.List;
 
 @Entity
 @Table(name ="branch")
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class Branch {
     @Id
     @Column(name = "branch_id",length = 80)

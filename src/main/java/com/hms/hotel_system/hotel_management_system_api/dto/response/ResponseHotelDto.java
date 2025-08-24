@@ -15,8 +15,8 @@ import java.util.List;
 public class ResponseHotelDto {
     private String hotelId;
     private boolean activeStatus;
-    private LocalDateTime createdDate;
-    private LocalDateTime updatedDate;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
     private String description;
     private String hotelName;
     private int starRating;
